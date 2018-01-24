@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="isteven-multi-select.css">
+</head>
+<body ng-app="myApp" id="myApp" ng-controller="myCtrl">
+    <isteven-multi-select    
+    input-model="anoPeriodo"    
+    output-model="outputBrowsers"
+    button-label="anoPeriodo"
+    item-label="anoPeriodo"
+    max-labels="2"
+    on-item-click="fClick( data )"
+    disable-property="disabled"
+    tick-property="ticked">
+    </isteven-multi-select>
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script src="isteven-multi-select.js"></script> 
+    <script src="app4.js"></script>
+</html>
